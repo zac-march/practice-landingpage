@@ -1,0 +1,177 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nav bar styling */
+
+.nav > h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+ul.nav-links{
+    margin-bottom: 0;
+}
+
+.nav > ul > li > a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+
+/* Hero styling */
+
+.header-hero {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header-hero, .quote {
+    padding: 100px 0;
+}
+
+.information {
+    padding: 25px 0;
+}
+
+.header-hero-left > h1{
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.header-hero-left > p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+.header-hero-right, .header-hero-left {
+    max-width: 370px;
+}
+
+.header-hero-right{
+    display: flex;
+}
+
+.header-hero-right > img {
+   width: 100%;
+   flex: 1 0 auto;
+   object-fit:cover;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* information styling */
+
+.information {
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    text-align: center;
+}
+
+.information-image > img {
+    max-height: 156px;
+}
+
+.information-image {
+    max-width: 156px;
+}
+
+.information-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Quote styling  */
+
+.quote {
+    background-color: #E5E7EB;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text, .quote-author{
+    width: 50%
+}
+
+.quote-author {
+    display: flex;
+    justify-content: end;
+}
+.quote-author > p{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+}
+
+.call-to-action {
+    flex: 1;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box{
+    display: flex;
+    width: 50%;
+    background-color: rgb(91, 107, 255);
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    border-radius: 20px 5px ;
+}
+
+.blue-box > button {
+    max-height: 20px;
+}
+
+.footer {
+    background-color: #1F2937;
+
+}
