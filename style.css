@@ -158,20 +158,36 @@ ul.nav-links{
 
 .blue-box{
     display: flex;
-    width: 50%;
+    width: 75%;
     background-color: rgb(91, 107, 255);
     justify-content: center;
     align-items: center;
     gap: 50px;
     color: white;
     border-radius: 20px 5px ;
+    padding: 15px;
 }
 
 .blue-box > button {
-    max-height: 20px;
+    padding: 10px 25px;
+    font-size: 15px;
+    border-radius: 10px 10px;
+    color: white;
+    background-color: rgb(91, 107, 255);
+    border: 2px solid white;
+
 }
 
 .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #1F2937;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
 
+.footer > p {
+    margin: 0;
 }
