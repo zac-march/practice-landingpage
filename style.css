@@ -166,6 +166,7 @@ ul.nav-links{
     color: white;
     border-radius: 20px 5px ;
     padding: 15px;
+    max-width: 670px;
 }
 
 .blue-box > button {
